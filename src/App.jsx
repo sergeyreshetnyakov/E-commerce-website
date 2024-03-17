@@ -6,20 +6,20 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Cart from "./components/cart/Cart";
-import "./App.sass";
 
 const ShopPage = () => {
     return (
-        <div className="App">
+        <div className="mx-[5%] sm:mx-[15%] 2xl:mx-[20%]">
+            <Navbar />
             <Header />
             <ProductList />
         </div>
-    )
-}
+    );
+};
+
 const App = () => {
     return (
         <Provider store={store}>
-            <Navbar />
             <Routes>
                 <Route path="/" element={<ShopPage />} />
                 <Route path="cart" element={<Cart />} />

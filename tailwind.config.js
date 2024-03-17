@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "monserrat": ["Montserrat", 'sans-serif'],
-        "holtwood": ['Holtwood One SC', 'sans-serif']
+        sans: ["Montserrat", 'sans-serif'],
+        "logo": ['Holtwood One SC', 'sans-serif']
       }
     },
   },

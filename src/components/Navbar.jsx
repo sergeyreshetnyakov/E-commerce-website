@@ -1,15 +1,13 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import CartIcon from "./svg/CartIcon";
 import LogoIcon from "./svg/LogoIcon";
-import { Link } from "react-router-dom";
-import "./Navbar.sass";
 
 const Navbar = () => {
     return (
-        <div className="navbar">
-            <div className="navbar-logo">
+        <div className="flex justify-between my-5">
+            <div className="flex">
                 <div>
-                    <h1 className="navbar-logo-text">
+                    <h1 className="text-2xl font-logo">
                         <Link to='/'>Craik</Link>
                     </h1>
                 </div>
